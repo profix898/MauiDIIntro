@@ -1,0 +1,9 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.IntroPage">
+    <StackLayout>
+        <Label Text="Intro Page" HorizontalOptions="Center" />
+        <Label Text="" x:Name="ProgressLabel" HorizontalOptions="Center" Margin="20" />
+        <Button Text="Upgrade and proceed to main page" HorizontalOptions="Center" Clicked="OnBtnContinueClicked" />
+    </StackLayout>
+</ContentPage>
